@@ -10,7 +10,6 @@ class Arrays
       while i <= l
         a.insert(rand(l), arr[i])
         i += 1
-        # p Benchmark.measure { Time.new }
       end
       end_time = Time.now
       p end_time - start_time
