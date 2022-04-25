@@ -18,3 +18,6 @@ def test_reverse_ten() -> None:
 
 def test_sort_five() -> None:
   assert sort([5, 3, 1, 4, 2]) == ([1, 2, 3, 4, 5])
+
+def test_sort_ten() -> None:
+  assert sort([6, 5, 3, 8, 7, 1, 10, 4, 9, 2]) == ([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
